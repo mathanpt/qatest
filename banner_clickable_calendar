@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://creative-platform.vrvm.com/ct/creative_toolkit.1.6.0.js"></script>
+  </head>
+  <body>
+    <script src="https://ad.vrvm.com/creative/custom/dell/nat7943/NAT-7944/banner-calendar/banner.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://ad.vrvm.com/creative/custom/dell/nat7943/NAT-7944/banner-calendar/banner.css" />
+    <banner disableclick=false>
+      <a class="cta" href="https://www.delltechnologies.com/content/dam/delltechnologies/assets/virtual-event/pre-event/summit2019/see-our-vision-for-the-next-data-decade.ics"></a>
+      <a if="{navigator.userAgent.includes('Android')}" class="cta" href="googlechrome://www.delltechnologies.com/content/dam/delltechnologies/assets/virtual-event/pre-event/summit2019/see-our-vision-for-the-next-data-decade.ics'"></a>
+      <dynamic-distance>
+        <span if={nearby}></span>
+        <span if={!nearby}></span>
+      </dynamic-distance>
+    </banner>
+  </body>
+</html>
